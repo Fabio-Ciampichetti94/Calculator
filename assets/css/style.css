@@ -11,7 +11,7 @@ body
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(90deg, #00aaff, #bbff00);
+    background: linear-gradient(45deg, #00aaff, #bbff00);
     font-family: 'Glory', sans-serif;
 }
 
