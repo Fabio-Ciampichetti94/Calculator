@@ -44,10 +44,9 @@ body
     cursor: pointer;
 }
 
-.calculator span:active
+.calculator span:hover
 {
-    background-color: #86ff56;
-    color: #111;
+    background-color: #48768b;
 }
 
 .calculator span.clear
@@ -57,10 +56,9 @@ body
     width: 160px;
 }
 
-.calculator span.clear:active
+.calculator span.clear:hover
 {
-    background-color: #ff9e70;
-    color: #fff;
+    background-color: #ffa57c;
 }
 
 .calculator span.plus
@@ -69,33 +67,16 @@ body
     height: 160px;
 }
 
-.calculator span.plus:active
-{
-    background-color: #ffe056;
-    color: #111;
-}
 
-.calculator span.molt:active
-{
-    background-color: #56fff7;
-    color: #111;
-}
-
-.calculator span.less:active
-{
-    background-color: #ff4d4d;
-    color: #111;
-}
 
 .calculator span.equal
 {
     background-color: #3575ff;
 }
 
-.calculator span.equal:active
+.calculator span.equal:hover
 {
-    background-color: #558bff;
-    color: #111;
+    background-color: #6c9aff;
 }
 
 .calculator .num 
