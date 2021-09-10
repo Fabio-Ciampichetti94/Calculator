@@ -4,7 +4,7 @@ I try to create my first calculator without Javascript
 
 Version 1.0.0
 
-![alt text](./assets/img/calculatorImage.png)
+![alt text](./assets/img/image.png)
 
 ## Create with:
 
