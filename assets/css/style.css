@@ -1,0 +1,122 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(90deg, #00aaff, #bbff00);
+    font-family: 'Glory', sans-serif;
+}
+
+.calculator 
+{
+    position: relative;
+    display: grid;
+}
+
+.calculator .value
+{
+    grid-column: span 4;
+    height: 100px;
+    text-align: end;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.calculator span 
+{
+    display: grid;
+    width: 80px;
+    height: 80px;
+    color: #fff;
+    background: #0c2835;
+    border: 1px solid #091921;
+    place-items: center; /* per mettere i numeri al centro del quadratino */
+    cursor: pointer;
+}
+
+.calculator span:active
+{
+    background-color: #86ff56;
+    color: #111;
+}
+
+.calculator span.clear
+{
+    background-color: #ff8b56;
+    grid-column: span 2;
+    width: 160px;
+}
+
+.calculator span.clear:active
+{
+    background-color: #ff9e70;
+    color: #fff;
+}
+
+.calculator span.plus
+{
+    grid-row: span 2;
+    height: 160px;
+}
+
+.calculator span.plus:active
+{
+    background-color: #ffe056;
+    color: #111;
+}
+
+.calculator span.molt:active
+{
+    background-color: #56fff7;
+    color: #111;
+}
+
+.calculator span.less:active
+{
+    background-color: #ff4d4d;
+    color: #111;
+}
+
+.calculator span.equal
+{
+    background-color: #3575ff;
+}
+
+.calculator span.equal:active
+{
+    background-color: #558bff;
+    color: #111;
+}
+
+.calculator .num 
+{
+    font-size: 25px;
+}
+
+
+@media screen and (max-width: 320px)
+{
+    body 
+    {
+        height: 100vh;
+    }
+}
+
+
+@media screen and (min-width: 321px) and (max-width: 1024px)
+{
+    body 
+    {
+        height: 90vh;
+    }
+}
